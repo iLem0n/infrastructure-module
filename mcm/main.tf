@@ -1,5 +1,5 @@
 
-release "helm_release" "saga-service-release" {
+resource "helm_release" "saga-service-release" {
     name        = "command-service"
     namespace   = var.namespace_name
     chart       = "saga-service"
