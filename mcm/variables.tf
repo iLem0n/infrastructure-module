@@ -1,3 +1,3 @@
-variable "namespace_name" {
+variable "environment" {
     type = string
 }
